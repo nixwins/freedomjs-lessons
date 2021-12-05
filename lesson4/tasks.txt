@@ -1,0 +1,76 @@
+1) Дан массив names = ["Jhone", "Dos", "Aidos", "Oleg"] удалить первый и последний элемент
+2) Дан массив nums = [] заполнить числами от 500 до 555
+3) Дан массив cities = [] заполнить имена городов Астана Алматы и т д.
+4) Функция принмает массив и выводить размер массива
+5) Вывести в консоль все поля объекта  
+photo = {
+    "albumId": 1,
+    "id": 1,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "url": "https://via.placeholder.com/600/92c952",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+}
+
+6) Изменить поле albmId у photo и вывести новое значения albmId
+7) Созадть 4 объекта с полями login, password и запушить в массив users
+8) Функция принимает массив users (брать из 7 задачи) и выводить поле login
+9) Функция принимает другую функцию и вызывает.
+10) Удалить первый элемент массива ["green", "red", "blue"]
+10) Удалить последний элемент массива ["green", "red", "blue"]
+11) Функция принимает массив строк и выводить если строка начинается с буквы А
+ ["apple", "Oral", "Astana", "Madrid", "Aral", "Piter", "appartment"]
+ 12) Функция принимает массив объектов  и выводить  id name каждого элемента // Например 1 labore ex et quam laborum
+  comments = 
+[ {
+    id: 1,
+    name: "labore ex et quam laborum",
+  },
+  {
+    id: 2,
+    name: "quo vero reiciendis velit similique earum",
+  },
+  {
+    id: 3,
+    name: "odio adipisci rerum aut animi",
+  },
+  {
+    id: 4,
+    name: "alias odio sit",
+  },
+  {
+    id: 5,
+    name: "vero eaque aliquid doloribus et culpa",
+  },
+  {
+    id: 6,
+    name: "et fugit eligendi deleniti quidem qui sint nihil autem",
+  }
+]
+12) Вывести все элементы массива comments если поле id больше 3
+13) Дан массив ids = [] заполнить массив id (брать данные из массива comments);
+14) Функция принимает массив объектов и ВОЗВРАЩАЕТ первый элемент массива
+todos = [
+  {
+    userId: 1,
+    id: 1,
+    title: "delectus aut autem",
+    completed: false
+  },
+  {
+    userId: 1,
+    id: 2,
+    title: "quis ut nam facilis et officia qui",
+    completed: false
+  },
+  {
+    userId: 1,
+    id: 3,
+    title: "fugiat veniam minus",
+    completed: false
+  }
+]
+15) Функция принимает массив объектов(todos из 14) и ВОЗВРАЩАЕТ последний  элемент массива
+16) Функция принимает массив объектов(todos из 14) ВОЗВРАЩАЕТ массив состоящий из поле title;
+ Например ["delectus aut autem", "quis ut nam facilis et officia qui", "fugiat veniam minus" ] 
+ 17) Созадть объект user2 = {name:"Vasya", age:44, address:{city:"Almaty", street:"Абая"}}
+ вывести город и улицу. Например Almaty Абая
