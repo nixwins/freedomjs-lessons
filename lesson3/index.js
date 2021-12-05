@@ -36,4 +36,10 @@ let streets = ["Bogenbai", "Nursultan"];
 let animals = [{ nickname: "Laika" }, { nickname: "Shariwk" }];
 let lika = animals[0]; //{ nickname: "Laika" }
 
-console.log(lika.nickname);
+// console.log(lika.nickname);
+let user = { name: "Dos", fullname: "Yesov" };
+
+function printFullname(obj) {
+  console.log(obj.name + " " + obj.fullname);
+}
+printFullname(user);
