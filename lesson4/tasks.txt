@@ -74,3 +74,5 @@ todos = [
  Например ["delectus aut autem", "quis ut nam facilis et officia qui", "fugiat veniam minus" ] 
  17) Созадть объект user2 = {name:"Vasya", age:44, address:{city:"Almaty", street:"Абая"}}
  вывести город и улицу. Например Almaty Абая
+ 18) Функция принимает три парметра name, age, city и ВОЗВРАЩАЕТ объект состоящий из этих последний
+ Должень возвращать {city:"SomeCity", age:55, name:"Dos"}
