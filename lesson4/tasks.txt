@@ -13,8 +13,26 @@ photo = {
 
 6) Изменить поле albmId у photo и вывести новое значения albmId
 7) Созадть 4 объекта с полями login, password и запушить в массив users
+let user1 = {login:"", password:""}
+let user2 = {login:"", password:""}
+let user3 = {login:"", password:""}
+let user4 = {login:"", password:""}
+let arr = []
+arr.push(user1)
+arr.push(user2)
+arr.push(user3)
+arr.push(user4)
 8) Функция принимает массив users (брать из 7 задачи) и выводить поле login
 9) Функция принимает другую функцию и вызывает.
+function foo(bar){
+  bar();
+}
+
+function bar(){
+  console.log("I'm bar")
+}
+
+foo(bar);
 10) Удалить первый элемент массива ["green", "red", "blue"]
 10) Удалить последний элемент массива ["green", "red", "blue"]
 11) Функция принимает массив строк и выводить если строка начинается с буквы А
