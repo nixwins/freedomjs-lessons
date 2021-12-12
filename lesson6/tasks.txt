@@ -1,0 +1,38 @@
+1) Дан массив names = ["Jhone", "Dos", "Aidos", "Oleg"] вывести в div Пример
+<div id="output">Jhone Dos Aidos Oleg</div>
+
+2)Дан объект 
+photo = { 
+        "albumId": 1, "id": 1,
+        "title": "accusamus beatae ad
+        facilis cum similique qui sunt",
+        "url":"https://via.placeholder.com/600/92c952", 
+        "thumbnailUrl":"https://via.placeholder.com/150/92c952" 
+}
+вывести все значения поля в див  <div id="photo"></div>
+
+3) В html есть тег <img id="img1" /> как получить доступ через js ? 
+4)<img id="img1" /> поменять атрибут src на "https://via.placeholder.com/600/92c952"
+
+5) Дан объект var styles ={color:"red",fontSize:"50px"} и
+<p id="mytext">Some text</p>
+присвоить тегу p (атрибут style)
+
+5)var arr = [1, 555, 555, 98, 100, 2023, 2, 45] Вывести все элменты массива в див <div id="arrOutput"></div>
+6) Взять массив из 5 задачи и отфильтровать числа больше 100  и вывести див <div id="filterOutput"></div>
+7) Взять массив из 5 задачи и удвоить все элементы и резульат вывести
+див <div id="doubleOutput"></div>
+
+8) Есть кнопка <button id="doCalculate">Calculate</button>
+приклике вывести в консоль "I'm clicked"
+9) Верстка
+<input id="numsInput" />
+<button id="pushButton">Push</button>
+при клике на кнопку Push взять value у инпута и вывести тег <p id="numsOutput"></p>
+10) Дан пустой массив fromInputValues = [] и верстка
+<input id="numsInput" />
+<button id="pushButton">Push</button>
+При клике на кнопку Пуш взять value из инпута и запушить в массив
+fromInputValues;
+
+11) Каждый раз когда добавлять элемент в массив fromInputValues выводить в див <div id="fromInputValuesOutput"></div> (10 и 11 байланысты)
