@@ -65,3 +65,17 @@ removeButton.onclick = function(){
         el.classList.remove("active")
     })
 }
+
+function prevFoo(){
+    images.forEach(function(el){
+        el.classList.remove("active");
+    })
+    index2 = index2 - 2;
+    if(index2 <= -1){
+        index2 = images.length - 1; // 3 - 1 = 2
+    }
+    let prevImg = images[index2];
+    prevImg.classList.add("active")
+}
+const prevButton = document.querySelector(".prev-button")
+prevButton.onclick = prevFoo;
